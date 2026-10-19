@@ -1,0 +1,284 @@
+[
+  {
+    "term": "Incidence",
+    "tr": "Giriş açısı farkı",
+    "definition_tr": "Gelen akış yönü ile kanadın referans giriş metal açısı arasındaki açı farkı (işaret konvansiyonu tanımlanmalıdır).",
+    "definition_en": "Difference between incoming flow angle and blade inlet metal angle; a sign convention is required."
+  },
+  {
+    "term": "Deviation",
+    "tr": "Çıkış sapma açısı",
+    "definition_tr": "Gerçek çıkış akış yönünün çıkış metal açısından sapması; akış koşullarına bağlıdır.",
+    "definition_en": "Difference between actual exit flow direction and the blade exit metal angle; flow dependent."
+  },
+  {
+    "term": "Stagger angle",
+    "tr": "Yerleşim açısı",
+    "definition_tr": "Airfoil chord hattının referans eksene göre geometrik yönelimi.",
+    "definition_en": "Geometric orientation of the airfoil chord relative to a reference axis."
+  },
+  {
+    "term": "Camber",
+    "tr": "Kamburluk",
+    "definition_tr": "Airfoil ortalama eğrilik hattının düz chord hattından sapması.",
+    "definition_en": "Curvature of the airfoil mean camber line relative to the chord line."
+  },
+  {
+    "term": "Chord",
+    "tr": "Kiriş uzunluğu",
+    "definition_tr": "Leading edge ile trailing edge arasındaki doğrusal mesafe.",
+    "definition_en": "Straight-line distance between the leading and trailing edges."
+  },
+  {
+    "term": "Solidity",
+    "tr": "Kanat sıklığı",
+    "definition_tr": "Kanat kiriş uzunluğunun çevresel hatveye oranı; genellikle c/s.",
+    "definition_en": "Blade chord to pitch ratio, commonly c/s."
+  },
+  {
+    "term": "Diffusion",
+    "tr": "Difüzyon",
+    "definition_tr": "Akışın yavaşlatılması ve statik basınç değişimiyle ilişkili süreç; kayıplar sınırlandırılmalıdır.",
+    "definition_en": "Flow deceleration associated with static-pressure change; losses must be controlled."
+  },
+  {
+    "term": "Surge",
+    "tr": "Kompresör surge olayı",
+    "definition_tr": "Kompresör ve bağlı sistemin bütününü etkileyebilen kararsız akış osilasyonu.",
+    "definition_en": "System-level unstable compressor-flow oscillation."
+  },
+  {
+    "term": "Stall",
+    "tr": "Akış ayrılması / stall",
+    "definition_tr": "Kanat sırası üzerinde akışın ayrılmasına bağlı performans kaybı ve kararsızlık.",
+    "definition_en": "Performance loss and instability associated with separated flow on blade rows."
+  },
+  {
+    "term": "Stall margin",
+    "tr": "Stall marjı",
+    "definition_tr": "Kararlı çalışma noktası ile tanımlı stall sınırı arasındaki ölçü; tanımı metoda göre değişebilir.",
+    "definition_en": "Measure of separation from a defined stall boundary; formulation depends on method."
+  },
+  {
+    "term": "VSV",
+    "tr": "Variable Stator Vane",
+    "definition_tr": "Stator airfoil ayar açısı değiştirilebilen kompresör kanadı.",
+    "definition_en": "Compressor stator airfoil with adjustable setting angle."
+  },
+  {
+    "term": "VIGV",
+    "tr": "Variable Inlet Guide Vane",
+    "definition_tr": "Girişte akışı rotora hazırlayan ve ayar açısı değiştirilebilen kanat sırası.",
+    "definition_en": "Adjustable inlet guide vane row used to condition flow approaching a rotor."
+  },
+  {
+    "term": "Trunnion",
+    "tr": "Pivot muylusu",
+    "definition_tr": "Vane dönme eksenini taşıyan ve yataklanabilen mekanik çıkıntı/mil bölgesi.",
+    "definition_en": "Shaft-like support about which an adjustable vane pivots."
+  },
+  {
+    "term": "Bushing",
+    "tr": "Burç",
+    "definition_tr": "Temas yüzeylerinde yük taşıyan ve göreli hareketi destekleyen ara eleman.",
+    "definition_en": "Sleeve/interface element that supports contact loads and relative motion."
+  },
+  {
+    "term": "Unison ring",
+    "tr": "Senkronizasyon halkası",
+    "definition_tr": "Bir sıradaki çok sayıda değişken vanenin birlikte kumanda edilmesini sağlayabilen halka mekanizması.",
+    "definition_en": "Ring mechanism that can coordinate the setting angles of many variable vanes."
+  },
+  {
+    "term": "Backlash",
+    "tr": "Mekanik boşluk",
+    "definition_tr": "Hareket yönü değiştiğinde bağlantılardaki ölü hareket nedeniyle oluşan konum farkı.",
+    "definition_en": "Lost motion caused by clearances in connected mechanism elements."
+  },
+  {
+    "term": "Fretting",
+    "tr": "Mikro-kayma kaynaklı yüzey hasarı",
+    "definition_tr": "Tekrarlayan küçük genlikli temas hareketlerinden kaynaklanabilen yüzey hasarı.",
+    "definition_en": "Surface damage due to repeated small-amplitude contact motion."
+  },
+  {
+    "term": "HCF",
+    "tr": "High-Cycle Fatigue",
+    "definition_tr": "Genellikle küçük elastik gerilme genliklerinin çok sayıda çevrimiyle ilişkili yorulma.",
+    "definition_en": "Fatigue associated with many cycles, often under predominantly elastic stress amplitudes."
+  },
+  {
+    "term": "LCF",
+    "tr": "Low-Cycle Fatigue",
+    "definition_tr": "Görece daha az çevrimli, yerel plastik deformasyonla ilişkili olabilen yorulma.",
+    "definition_en": "Fatigue with comparatively fewer cycles, possibly involving local plastic strain."
+  },
+  {
+    "term": "Thermal growth",
+    "tr": "Termal genleşme",
+    "definition_tr": "Sıcaklık değişimiyle boyutların değişmesi; kısıtlarla gerilmelere dönüşebilir.",
+    "definition_en": "Dimensional change with temperature; constraints can create thermal stresses."
+  },
+  {
+    "term": "FOD",
+    "tr": "Foreign Object Damage",
+    "definition_tr": "Yabancı cisim teması nedeniyle oluşan komponent hasarı.",
+    "definition_en": "Damage caused by foreign object impact or contact."
+  },
+  {
+    "term": "Endwall loss",
+    "tr": "Duvar bölgesi kayıpları",
+    "definition_tr": "Hub veya casing duvarı yakınında ikincil akışlar ve sınır tabakalarla ilişkili kayıplar.",
+    "definition_en": "Losses near hub/casing walls associated with secondary flow and boundary layers."
+  },
+  {
+    "term": "Bypass ratio",
+    "tr": "Bypass oranı",
+    "definition_tr": "Bypass hava kütlesel debisinin çekirdek hava kütlesel debisine oranı.",
+    "definition_en": "Ratio of bypass to core air mass flow."
+  },
+  {
+    "term": "Specific thrust",
+    "tr": "Özgül itki",
+    "definition_tr": "Net itkinin motor hava kütlesel debisine oranı; kullanılan tanıma dikkat edilmelidir.",
+    "definition_en": "Net thrust divided by an explicitly defined engine air mass flow."
+  },
+  {
+    "term": "Total pressure",
+    "tr": "Toplam basınç",
+    "definition_tr": "Akışın uygun tanımlı durdurulmasıyla ilişkili stagnasyon basıncı.",
+    "definition_en": "Stagnation pressure associated with bringing the flow to rest under stated assumptions."
+  },
+  {
+    "term": "Pressure ratio",
+    "tr": "Basınç oranı",
+    "definition_tr": "Bir elemanın çıkış ve giriş toplam basınçlarının oranı olarak tanımlanabilir.",
+    "definition_en": "May be defined as the ratio of an element outlet to inlet total pressure."
+  },
+  {
+    "term": "Spool",
+    "tr": "Mil grubu",
+    "definition_tr": "Birbiriyle mekanik olarak bağlı rotor ve türbin sistemleri grubu.",
+    "definition_en": "Mechanically linked rotating assembly comprising relevant compressor and turbine stages."
+  },
+  {
+    "term": "Combustor liner",
+    "tr": "Yanma odası liner",
+    "definition_tr": "Yanmanın gerçekleştiği bölgeyi çevreleyen sıcak gaz yolu parçası.",
+    "definition_en": "Hot-gas boundary surrounding the combustion region."
+  },
+  {
+    "term": "Swirler",
+    "tr": "Döndürücü / Swirler",
+    "definition_tr": "Yanma hava akışına dönel hareket kazandıran akış elemanı.",
+    "definition_en": "Flow element imparting swirl to combustor air."
+  },
+  {
+    "term": "Atomization",
+    "tr": "Atomizasyon",
+    "definition_tr": "Sıvı yakıtın damlacıklara ayrılması süreci.",
+    "definition_en": "Breakup of liquid fuel into droplets."
+  },
+  {
+    "term": "Creep",
+    "tr": "Sürünme",
+    "definition_tr": "Sabit veya değişen yük ve yüksek sıcaklık altında zamana bağlı şekil değiştirme.",
+    "definition_en": "Time-dependent deformation under load, important at elevated temperature."
+  },
+  {
+    "term": "Thermal barrier coating",
+    "tr": "Isıl bariyer kaplama",
+    "definition_tr": "Sıcak bileşenlerin metal sıcaklığını azaltmaya yardımcı olabilen kaplama sistemi.",
+    "definition_en": "Coating system that can help reduce metal temperature of hot-section components."
+  },
+  {
+    "term": "Turbine cooling",
+    "tr": "Türbin soğutması",
+    "definition_tr": "Sıcak parçalardan ısı uzaklaştırmak için kullanılan dahili/harici yöntemler.",
+    "definition_en": "Internal and external techniques used to manage temperature of turbine hardware."
+  },
+  {
+    "term": "Nozzle pressure ratio",
+    "tr": "Nozul basınç oranı",
+    "definition_tr": "Nozulun upstream akış basıncı ile uygun çıkış/ortam basıncı arasındaki oran.",
+    "definition_en": "Pressure ratio comparing upstream nozzle flow pressure with defined downstream or ambient pressure."
+  },
+  {
+    "term": "Choked flow",
+    "tr": "Boğulmuş akış",
+    "definition_tr": "Akış hızının boğazda yerel ses hızına ulaştığı ve kütlesel debinin sınırlanabildiği durum.",
+    "definition_en": "Condition where local Mach number reaches unity at a throat, limiting mass flow under given upstream conditions."
+  },
+  {
+    "term": "Thrust reverser",
+    "tr": "Ters itki sistemi",
+    "definition_tr": "İniş yavaşlamasına yardımcı olmak üzere akışın yönünü değiştirebilen kurulum sistemi.",
+    "definition_en": "Installation system that redirects airflow to help decelerate the aircraft."
+  },
+  {
+    "term": "Rotor dynamics",
+    "tr": "Rotor dinamiği",
+    "definition_tr": "Dönen millerin, desteklerin ve kütlelerin titreşim ile kararlılık davranışı.",
+    "definition_en": "Vibration and stability behaviour of rotating shafts, supports and inertial elements."
+  },
+  {
+    "term": "Critical speed",
+    "tr": "Kritik devir",
+    "definition_tr": "Uyarım ile doğal mod ilişkisinin yüksek titreşim oluşturabildiği devir bölgesi.",
+    "definition_en": "Speed range where excitation can align with a natural mode and produce high vibration."
+  },
+  {
+    "term": "Bearing sump",
+    "tr": "Rulman yağ haznesi",
+    "definition_tr": "Yağlanan rulman gruplarını çevreleyen yağ ve hava kontrol bölgesi.",
+    "definition_en": "Compartment enclosing lubricated bearings and managing oil and air."
+  },
+  {
+    "term": "Scavenge",
+    "tr": "Yağ toplama",
+    "definition_tr": "Motor içindeki haznelerden yağın geri taşınması işlemi.",
+    "definition_en": "Return of oil from engine compartments to the lubrication system."
+  },
+  {
+    "term": "FADEC",
+    "tr": "Tam Yetkili Sayısal Motor Kontrolü",
+    "definition_tr": "Motor kumandasını sayısal olarak yürüten kontrol mimarisi.",
+    "definition_en": "Full Authority Digital Engine Control architecture."
+  },
+  {
+    "term": "Bleed air",
+    "tr": "Bleed havası",
+    "definition_tr": "Kompresörden çekilen, motor veya uçak sistemlerinde kullanılan hava.",
+    "definition_en": "Air extracted from compressor flow for engine or aircraft functions."
+  },
+  {
+    "term": "Active clearance control",
+    "tr": "Aktif açıklık kontrolü",
+    "definition_tr": "Çalışma koşullarına bağlı olarak parçalar arasındaki açıklıkları yöneten sistem yaklaşımı.",
+    "definition_en": "System approach to managing clearances across operating conditions."
+  },
+  {
+    "term": "Accessory gearbox",
+    "tr": "Aksesuar dişli kutusu",
+    "definition_tr": "Motorun yardımcı ekipmanlarına güç ileten dişli kutusu.",
+    "definition_en": "Geartrain transmitting drive power to engine accessories."
+  },
+  {
+    "term": "Nacelle",
+    "tr": "Motor kaportası / Nacelle",
+    "definition_tr": "Motorun dış kaplama ve hava akışı entegrasyon yapısı.",
+    "definition_en": "External engine enclosure and installation flowpath structure."
+  },
+  {
+    "term": "Borescope inspection",
+    "tr": "Boreskop muayenesi",
+    "definition_tr": "Motorun iç parçalarını sökmeden optik olarak inceleme yöntemi.",
+    "definition_en": "Optical method of inspecting engine internal components without full disassembly."
+  },
+  {
+    "term": "Airworthiness",
+    "tr": "Uçuşa elverişlilik",
+    "definition_tr": "Havacılık sisteminin ilgili emniyet ve sertifikasyon gereklilikleri açısından değerlendirilmesi.",
+    "definition_en": "Assessment of an aviation system against applicable safety and certification requirements."
+  }
+]

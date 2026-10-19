@@ -1,0 +1,19 @@
+# Uygulamalı mühendislik örnekleri
+
+> **Temel fikir** · Basit hesaplamalar sezgi kazandırır; kademeye özel tasarım verisinin veya valide simülasyonun yerini tutmaz.
+
+Örnek A — termal genleşme: serbest, 80 mm uzunluklu bir parça için α = 15 × 10⁻⁶ K⁻¹ ve homojen ΔT = 250 K ise ΔL ≈ 0,30 mm olur. Kısıtlı genleşme bunun yerine gerilme oluşturabilir.
+
+Örnek B — blade passing: yalnızca örnek olarak 42 kanatlı rotor 9.000 RPM’de çalışırsa birinci BPF = 42 × 9.000 / 60 = 6.300 Hz olur. Gerçek modal uyarım harmoniklere, genliğe, nodal örüntüye ve mesnetlemeye bağlıdır.
+
+Örnek C — geometrik oran: chord c = 30 mm ve pitch s = 20 mm ise solidity σ = 1,5 olur. Bu yalnızca geometri oranıdır; aerodinamik yeterlilik anlamına gelmez.
+
+<EngineeringNote>
+Yukarıdaki tüm sayısal değerler hayalî öğretim girdileridir; belirli bir motordan alınmamıştır ve onu temsil etmez.
+</EngineeringNote>
+
+## Örnek denklem
+
+$$\Delta L = \alpha \cdot L_0 \cdot \Delta T$$
+
+Bu ifade serbest, tek boyutlu, yaklaşık termal genleşmeyi temsil eder.
